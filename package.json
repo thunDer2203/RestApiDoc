@@ -1,6 +1,6 @@
 {
   "name": "@thunder03/expressapidoc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "FastAPI-style auto-generated API docs for Express, powered by Zod",
   "type": "module",
   "main": "./dist/index.js",
