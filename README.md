@@ -84,7 +84,7 @@ router.get(path, schemas, handler)
 
 If a schema is provided and the incoming data does not match it, the request is answered with HTTP `422` and the Zod issues, and your handler is not called.
 
-### `mountDocs(app, docsPath = '/docs')`
+### `mountDocs(app, path = '/docs')`
 
 Adds two endpoints to your app:
 
@@ -131,7 +131,7 @@ The spec is generated when `/openapi.json` is requested, not at startup. By then
 ## Development
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/thunDer2203/RestApiDoc.git
 cd expressapidoc
 npm install
 npm test        # run the test suite (Vitest + Supertest)
