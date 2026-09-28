@@ -7,7 +7,7 @@ Define each route's params, query and body once as Zod schemas. You get:
 - **Request validation**: invalid requests are rejected with a `422` before your handler runs.
 - **Type coercion**: `z.coerce.number()` turns the URL string `"42"` into the number `42` before your code sees it.
 - **A live OpenAPI 3 spec** at `/openapi.json`.
-- **A Swagger UI page** at `/docs`, with "Try it out" buttons.
+- **A Swagger UI page** at `/api-docs`, with "Try it out" buttons.
 
 You write no OpenAPI YAML, no JSDoc annotations and no Swagger setup code.
 
